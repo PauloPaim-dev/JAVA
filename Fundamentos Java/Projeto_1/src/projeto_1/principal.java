@@ -30,7 +30,7 @@ public class principal {
 		idadePessoa = sc.nextInt();
 		System.out.print("Quantas horas trabalhadas: ");
 		horasTrabalhadas = sc.nextFloat();
-		System.out.println(nomePessoa+" quantas você ganha por hora: ");
+		System.out.print(nomePessoa+" quanto você ganha por hora: ");
 		valorHora = sc.nextFloat();
 	
 		
@@ -46,8 +46,8 @@ public class principal {
 		System.out.println(nomePessoa+" horas trabalhadas "+horasTrabalhadas+ "h");
 		System.out.println("Você receberá R$ "+salarioTotal);
 				
-		
-		
+		//fechamento do close
+		sc.close();
 
 	}
 
