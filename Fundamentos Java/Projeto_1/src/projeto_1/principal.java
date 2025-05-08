@@ -46,7 +46,7 @@ public class principal {
 		System.out.println(nomePessoa+" horas trabalhadas "+horasTrabalhadas+ "h");
 		System.out.println("Você receberá R$ "+salarioTotal);
 				
-		//fechamento do close
+		//fechamento do sr com o sc.close()
 		sc.close();
 
 	}
